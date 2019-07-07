@@ -1,7 +1,7 @@
 # EdgeLedger
 Edge Ledger
-# myappsample
-Traning exercise to create sample Accounting Firm's website
+# Training Exercise
+Traning exercise to create sample accounting firm's website
 Utilizes html 5, css 3, and javascript
 
 focuses on <br />
