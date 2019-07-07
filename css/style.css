@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+:root {
+    --primCol: #93cb52;
+    --secCol: #7ab436;
+    --darkGray: #333;
+    --ltGray: #444;
+    --mWidth: 1100px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
@@ -25,28 +33,28 @@ p {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: var(--mWidth);
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
 }
 
 .text-primary {
-    color: #93cb52;
+    color: var(--primCol);
 }
 
 .bg-light {
     background: #f4f4f4;
-    color: #333;
+    color: var(--darkGray);
 }
 
 .bg-dark {
-    background: #333;
+    background: var(--darkGray);
     color: #f4f4f4;
 }
 
 .bg-primary {
-    background: #93cb52;
+    background: var(--primCol);
     color: white;
 }
 
@@ -98,13 +106,13 @@ p {
 
 .list li {
     padding: .5rem;
-    border-bottom: #444 dotted 1px;
+    border-bottom: var(--ltGray) dotted 1px;
 }
 
 .btn {
     display: inline-block;
     color: #fff;
-    background: #93cb52;
+    background: var(--primCol);
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
@@ -113,11 +121,11 @@ p {
 }
 
 .btn:hover {
-    background: #7ab436;
+    background: var(--secCol);
 }
 
 .btn-dark {
-    background: #333;
+    background: var(--darkGray);
     color: #fff;
 }
 
@@ -132,7 +140,7 @@ p {
     position: -ms-sticky;
     position: -o-sticky;
     top: 0;
-    background: #333;
+    background: var(--darkGray);
     color: #fff;
     justify-content: space-between;
     z-index: 1;
@@ -152,7 +160,7 @@ p {
 }
 
 #navbar ul li a:hover {
-    background: #93cb52;
+    background: var(--primCol);
     border-radius: 5px;
 }
 
@@ -197,7 +205,7 @@ p {
 }
 
 #what .items .item i {
-    background: #93cb52;
+    background: var(--primCol);
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
