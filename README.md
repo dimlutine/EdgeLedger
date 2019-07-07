@@ -1,10 +1,10 @@
 # EdgeLedger
 Edge Ledger
 # Training Exercise
-Traning exercise to create sample accounting firm's website
-Utilizes html 5, css 3, and javascript
+Traning exercise to create sample accounting firm's website<br />
+Utilizes html 5, css 3, and javascript<br />
 
-focuses on <br />
+Focuses on <br />
 * html
   * semantic tags
 * css
