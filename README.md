@@ -8,6 +8,7 @@ Focuses on <br />
 * html
   * semantic tags
   * single page layout
+  * responsive design
 * css
   * flexbox
   * utility classes
