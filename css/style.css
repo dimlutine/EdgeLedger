@@ -117,10 +117,7 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
     /* box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .5); */
->>>>>>> master
 }
 
 .btn:hover {
