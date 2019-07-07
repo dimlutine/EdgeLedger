@@ -4,12 +4,12 @@ Edge Ledger
 Traning exercise to create sample Accounting Firm's website
 Utilizes html 5, css 3, and javascript
 
-focuses on /
-    1. html
-        ..* semantic tags
-    2. css
-        ..* flexbox
-        ..* utility classes
-    3. javascript
-        ..* smooth scrolling
-        ..* google map api
+focuses on <br />
+    * html
+        * semantic tags
+    * css
+        * flexbox
+        * utility classes
+    * javascript
+        * smooth scrolling
+        * google map api
