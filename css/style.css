@@ -125,6 +125,11 @@ p {
 #navbar {
     display: flex;
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    
     top: 0;
     background: #333;
     color: #fff;
