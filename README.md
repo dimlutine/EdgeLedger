@@ -13,5 +13,5 @@ Focuses on <br />
   * flexbox
   * utility classes
 * javascript
-  * smooth scrolling
+  * smooth scrolling (jQuery)
   * google map api
