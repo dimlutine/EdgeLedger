@@ -118,16 +118,27 @@ p {
     border-radius: 5px;
     cursor: pointer;
     /* box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, .5); */
+    /* transition-property: background;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out; */
+    transition: all .5s ease-in-out;
 }
 
+.btn:active{
+    background: var(--darkGray);
+    transform: scale(1.25);
+}
 .btn:hover {
     background: var(--secCol);
+    border-radius: 10px;
 }
 
-.btn-dark {
+.btn-dark{
     background: var(--darkGray);
     color: #fff;
 }
+
+
 
 
 /* Navbar */
